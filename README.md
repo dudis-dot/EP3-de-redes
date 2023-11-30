@@ -1,15 +1,14 @@
 # EP3-de-redes
 # Preparando um ambiente
 Para rodar os exemplos é preciso ter o python, pip e o venv instalados no computador, depois crie uma pasta chamada venv em uma das pastas spotipy.
-Em seguinda, rode o comando (dentro da pasta do spotipy que você colocou a pasta venv):
-
+Em seguinda, rode o comando (dentro da pasta do spotipy que você colocou a pasta venv):  
   $ python -m venv venv
 
-Depois, execute o comando:
+Depois, execute o comando:  
 
   $ pip install -r requirements.txt
 
-Agora, crie um arquivo chamado .env e coloque o seguinte contéudo:
+Agora, crie um arquivo chamado .env e coloque o seguinte contéudo:  
 
   SPOTIPY_CLIENT_ID = <seu_id_do_spotify>
   SPOTIPY_CLIENT_SECRET = <sua_senha_spotipy>
